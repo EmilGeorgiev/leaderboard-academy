@@ -1,0 +1,12 @@
+syntax = "proto3";
+package emilgeorgiev.leaderboard.leaderboard;
+
+import "gogoproto/gogo.proto";
+
+option go_package = "github.com/EmilGeorgiev/leaderboard/x/leaderboard/types";
+
+// Params defines the parameters for the module.
+message Params {
+  option (gogoproto.goproto_stringer) = false;
+  
+}
